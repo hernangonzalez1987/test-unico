@@ -5,3 +5,9 @@ mysite/markets/migrations/__pycache__
 .vscode
 mysite/app.log
 mysite/db.sqlite3
+mysite/markets/__pycache__/models.cpython-38.pyc
+mysite/markets/__pycache__/urls.cpython-38.pyc
+mysite/markets/__pycache__/views.cpython-38.pyc
+mysite/mysite/__pycache__/settings.cpython-38.pyc
+mysite/mysite/__pycache__/urls.cpython-38.pyc
+mysite/db.sqlite3
