@@ -12,10 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'f5u#=%jw$_jo5ijkon9b&k@rz5kxb+@87^rcz+o5hs*om%(vrq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -56,9 +55,6 @@ TEMPLATES = [
         },
     },
 ]
-
-WSGI_APPLICATION = 'unico.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -132,7 +128,7 @@ LOGGING = {
     },
     'formatters': {                                                                                       
         'general': {
-            'format': '%(asctime)s HOSTNAME APP_NAME: %(message)s',
+            'format': '%(asctime)s UNICO TEST: %(message)s',
             'datefmt': '%Y-%m-%dT%H:%M:%S',
         },
     },
@@ -144,4 +140,3 @@ LOGGING = {
         },
     },
 }
-

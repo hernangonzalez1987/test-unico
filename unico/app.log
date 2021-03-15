@@ -1,3 +1,195 @@
 2021-03-15T10:33:32 HOSTNAME APP_NAME: Watching for file changes with StatReloader
 2021-03-15T10:33:41 HOSTNAME APP_NAME: Bad Request: /markets/
 2021-03-15T10:33:41 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 400 76
+2021-03-15T10:45:32 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T10:46:07 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T10:46:11 HOSTNAME APP_NAME: Bad Request: /markets/
+2021-03-15T10:46:11 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 400 76
+2021-03-15T10:46:13 HOSTNAME APP_NAME: "GET /markets?district=BRAS HTTP/1.1" 301 0
+2021-03-15T10:46:13 HOSTNAME APP_NAME: "GET /markets/?district=BRAS HTTP/1.1" 200 2457
+2021-03-15T11:04:31 HOSTNAME APP_NAME: Not Found: /
+2021-03-15T11:06:34 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:06:58 HOSTNAME APP_NAME: "GET /markets?district=BRAS HTTP/1.1" 301 0
+2021-03-15T11:06:58 HOSTNAME APP_NAME: "GET /markets/?district=BRAS HTTP/1.1" 200 2457
+2021-03-15T11:07:02 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:07:02 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:07:26 HOSTNAME APP_NAME: Bad Request: /markets/
+2021-03-15T11:07:26 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 400 76
+2021-03-15T11:07:32 HOSTNAME APP_NAME: Bad Request: /markets/
+2021-03-15T11:07:32 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 400 76
+2021-03-15T11:07:39 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 201 397
+2021-03-15T11:07:55 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 201 404
+2021-03-15T11:08:03 HOSTNAME APP_NAME: Bad Request: /markets/
+2021-03-15T11:08:03 HOSTNAME APP_NAME: "POST /markets/ HTTP/1.1" 400 118
+2021-03-15T11:08:43 HOSTNAME APP_NAME: Method Not Allowed: /markets/sdf
+2021-03-15T11:08:43 HOSTNAME APP_NAME: "POST /markets/sdf HTTP/1.1" 405 41
+2021-03-15T11:08:53 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:08:53 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:10:38 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:10:38 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:10:47 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:10:47 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:12:39 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:12:40 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:13:38 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:13:39 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:15:33 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:15:33 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:15:58 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:15:58 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:16:00 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:16:01 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:16:04 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:16:04 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:16:30 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:16:30 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:16:49 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:16:49 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:00 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:17:00 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:03 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/settings.py changed, reloading.
+2021-03-15T11:17:04 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:14 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:17:14 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:33 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:17:33 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:36 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:17:37 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:51 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:17:51 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:17:58 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/handlers.py changed, reloading.
+2021-03-15T11:17:58 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:18:43 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/views.py changed, reloading.
+2021-03-15T11:18:44 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:18:50 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:18:50 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:18:55 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:18:55 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:19:37 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:19:37 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:19:48 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:19:48 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:19:59 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:19:59 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:20:10 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:20:13 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:20:13 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:21:02 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:21:02 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:21:10 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:21:10 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:21:13 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:21:13 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:21:20 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:21:20 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:21:56 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:21:56 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:22:01 HOSTNAME APP_NAME: Internal Server Error: /marketsjhghj
+2021-03-15T11:22:01 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 500 145
+2021-03-15T11:23:12 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:23:30 HOSTNAME APP_NAME: Internal Server Error: /marketsjhghj
+2021-03-15T11:23:30 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 500 145
+2021-03-15T11:28:41 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/markets/urls.py changed, reloading.
+2021-03-15T11:28:42 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:30:04 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:30:07 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:30:07 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:31:44 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:31:44 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:31:51 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:34:19 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:34:30 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:34:30 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:34:39 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:34:43 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:34:43 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:35:44 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:36:01 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:36:01 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:39:00 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:39:10 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:39:45 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:39:54 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:39:54 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:43:30 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:43:34 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:43:34 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:45:02 HOSTNAME APP_NAME: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:45:02 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:45:05 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:45:05 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:49:13 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:49:20 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:49:20 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:51:01 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:51:11 HOSTNAME APP_NAME: Watching for file changes with StatReloader
+2021-03-15T11:51:49 HOSTNAME APP_NAME: Not Found: /marketsjhghj
+2021-03-15T11:51:49 HOSTNAME APP_NAME: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:54:10 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T11:54:14 UNICO TEST: Not Found: /marketsjhghj
+2021-03-15T11:54:14 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:54:27 UNICO TEST: Not Found: /marketsjhghj
+2021-03-15T11:54:27 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 404 179
+2021-03-15T11:56:58 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:56:59 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T11:57:09 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:57:09 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T11:57:13 UNICO TEST: Internal Server Error: /marketsjhghj
+2021-03-15T11:57:13 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 31
+2021-03-15T11:58:02 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:58:02 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T11:59:32 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T11:59:33 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:01:49 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:01:49 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:04:02 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:04:03 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:04:57 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 59
+2021-03-15T12:05:28 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:05:28 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:05:33 UNICO TEST: Forbidden: /marketsjhghj
+2021-03-15T12:05:33 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 403 21
+2021-03-15T12:06:17 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:06:18 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:06:29 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:06:29 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:06:47 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:08:21 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:08:23 UNICO TEST: Forbidden: /marketsjhghj
+2021-03-15T12:08:23 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 403 21
+2021-03-15T12:08:27 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:08:35 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 59
+2021-03-15T12:08:46 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:08:49 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:09:12 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:10:01 UNICO TEST: Forbidden: /marketsjhghj
+2021-03-15T12:10:01 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 403 21
+2021-03-15T12:10:12 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:10:20 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:10:23 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:10:26 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 200 9
+2021-03-15T12:11:09 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T12:11:17 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:11:20 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 59
+2021-03-15T12:11:55 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:11:57 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 59
+2021-03-15T12:12:18 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T12:12:48 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 500 59
+2021-03-15T13:32:55 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T13:33:02 UNICO TEST: Not Found: /marketsjhghj
+2021-03-15T13:33:02 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 404 9
+2021-03-15T13:33:57 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T13:33:59 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T13:34:24 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T13:34:25 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T13:34:27 UNICO TEST: Not Found: /marketsjhghj
+2021-03-15T13:34:27 UNICO TEST: "GET /marketsjhghj HTTP/1.1" 404 24
+2021-03-15T13:34:49 UNICO TEST: Not Found: /markets/ghjghj
+2021-03-15T13:34:49 UNICO TEST: "DELETE /markets/ghjghj HTTP/1.1" 404 23
+2021-03-15T13:35:08 UNICO TEST: Not Found: /markets/123
+2021-03-15T13:35:08 UNICO TEST: "DELETE /markets/123 HTTP/1.1" 404 23
+2021-03-15T13:35:22 UNICO TEST: "GET /markets?district=BRAS HTTP/1.1" 301 0
+2021-03-15T13:35:22 UNICO TEST: "GET /markets/?district=BRAS HTTP/1.1" 200 3260
+2021-03-15T13:35:26 UNICO TEST: Bad Request: /markets/
+2021-03-15T13:35:26 UNICO TEST: "POST /markets/ HTTP/1.1" 400 76
+2021-03-15T13:35:34 UNICO TEST: "POST /markets/ HTTP/1.1" 201 404

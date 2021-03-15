@@ -8,7 +8,7 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/mysite/manage.py",
+            "program": "${workspaceFolder}/unico/manage.py",
             "args": [
                 "runserver"
             ],
@@ -18,7 +18,7 @@
             "name": "Python: Load",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/mysite/load.py",
+            "program": "${workspaceFolder}/unico/load.py",
             "django": false
         }
     ]

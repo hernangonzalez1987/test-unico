@@ -16,7 +16,6 @@ class MultipleFieldsSearch:
 
         return queryset
 
-# Create your views here.
 class ListCreateMarketsView(MultipleFieldsSearch, ListCreateAPIView):
     queryset = Market.objects.all()
     serializer_class = MarketSerializer

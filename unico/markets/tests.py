@@ -1,3 +1,6 @@
 from django.test import TestCase
 
-# Create your tests here.
+class TestCalls(TestCase):
+    def test_list_all(self):
+        response = self.client.get('/', follow=True)
+        self.assertEqual(response.status_code,200)

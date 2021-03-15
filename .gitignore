@@ -1,3 +1,4 @@
-unico/env
+env
 __pycache__/
 .vscode/
+unico/.coverage

@@ -8,6 +8,7 @@ djangorestframework = "*"
 pandas = "*"
 "psycopg2.binary" = "*"
 django = "*"
+coverage = "*"
 
 [dev-packages]
 
