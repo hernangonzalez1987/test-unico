@@ -20,7 +20,7 @@ class Market(models.Model):
     region_5 = models.TextField(choices=Region.choices,blank=True, default=None,null=True)
     region_8 = models.TextField(blank=True, default=None,null=True)
     name = models.TextField(blank=True, default=None,null=True)
-    registry = models.TextField(blank=True, default=None,null=True)
+    registration_code = models.TextField(unique=True)
     address_street = models.TextField(blank=True, default=None,null=True)
     address_number = models.TextField(blank=True, default=None,null=True)
     address_city = models.TextField(blank=True, default=None,null=True)

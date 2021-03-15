@@ -20,9 +20,9 @@ class MultipleFieldsSearch:
 class ListCreateMarketsView(MultipleFieldsSearch, ListCreateAPIView):
     queryset = Market.objects.all()
     serializer_class = MarketSerializer
-    lookup_fields = ['district', 'region_5','name','city']
+    lookup_fields = ['district', 'region_5','name','address_city']
 
 class RetrieveUpdateDestroyMarketView(RetrieveUpdateDestroyAPIView):
     queryset = Market.objects.all()
-    lookup_url_kwarg = 'registry'
+    lookup_field = 'registration_code'
     serializer_class = MarketUpdatedSerializer

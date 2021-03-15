@@ -9,5 +9,5 @@ class MarketSerializer(serializers.ModelSerializer):
 class MarketUpdatedSerializer(serializers.ModelSerializer):
     class Meta:
         model = Market
-        exclude = ['registry']
+        exclude = ['registration_code']
 
