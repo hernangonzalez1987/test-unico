@@ -193,3 +193,192 @@
 2021-03-15T13:35:26 UNICO TEST: Bad Request: /markets/
 2021-03-15T13:35:26 UNICO TEST: "POST /markets/ HTTP/1.1" 400 76
 2021-03-15T13:35:34 UNICO TEST: "POST /markets/ HTTP/1.1" 201 404
+2021-03-15T13:40:02 UNICO TEST: Not Found: /
+2021-03-15T13:40:02 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:40:48 UNICO TEST: Not Found: /
+2021-03-15T13:40:48 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:41:24 UNICO TEST: Not Found: /
+2021-03-15T13:41:24 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:42:35 UNICO TEST: Not Found: /
+2021-03-15T13:43:16 UNICO TEST: Not Found: /
+2021-03-15T13:43:37 UNICO TEST: Not Found: /
+2021-03-15T13:43:37 UNICO TEST: Internal Server Error: /not_exists/
+Traceback (most recent call last):
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 591, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hernangonzales/projects/test/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name)) from e
+django.core.exceptions.ImproperlyConfigured: The included URLconf 'unico.tests' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+2021-03-15T13:44:10 UNICO TEST: Not Found: /
+2021-03-15T13:44:10 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:47:49 UNICO TEST: Not Found: /
+2021-03-15T13:47:49 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:55:44 UNICO TEST: Not Found: /
+2021-03-15T13:55:44 UNICO TEST: Not Found: /not_exists/
+2021-03-15T13:56:39 UNICO TEST: Not Found: /
+2021-03-15T13:57:01 UNICO TEST: Not Found: /
+2021-03-15T13:57:58 UNICO TEST: Not Found: /
+2021-03-15T13:57:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:00:25 UNICO TEST: Not Found: /
+2021-03-15T14:00:25 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:01:52 UNICO TEST: Not Found: /
+2021-03-15T14:01:52 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:02:14 UNICO TEST: Not Found: /
+2021-03-15T14:02:14 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:07:58 UNICO TEST: Not Found: /
+2021-03-15T14:07:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:08:14 UNICO TEST: Not Found: /
+2021-03-15T14:08:14 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:11:24 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:11:37 UNICO TEST: "GET /marketssdfsdf HTTP/1.1" 500 59
+2021-03-15T14:11:58 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:11:58 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:12:01 UNICO TEST: Not Found: /marketssdfsdf
+2021-03-15T14:12:01 UNICO TEST: "GET /marketssdfsdf HTTP/1.1" 404 24
+2021-03-15T14:13:06 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:13:06 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:13:11 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:13:12 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:13:15 UNICO TEST: Not Found: /marketssdfsdf
+2021-03-15T14:13:15 UNICO TEST: "GET /marketssdfsdf HTTP/1.1" 404 24
+2021-03-15T14:13:36 UNICO TEST: Not Found: /
+2021-03-15T14:13:36 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:16:05 UNICO TEST: Not Found: /
+2021-03-15T14:16:05 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:16:15 UNICO TEST: Not Found: /
+2021-03-15T14:16:15 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:16:29 UNICO TEST: Not Found: /
+2021-03-15T14:16:29 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:16:44 UNICO TEST: Not Found: /
+2021-03-15T14:16:44 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:17:11 UNICO TEST: Not Found: /
+2021-03-15T14:17:11 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:17:18 UNICO TEST: Not Found: /
+2021-03-15T14:17:18 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:17:46 UNICO TEST: Not Found: /
+2021-03-15T14:17:46 UNICO TEST: Not Found: /not_exists/
+2021-03-15T14:32:00 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:32:02 UNICO TEST: "GET /markets/9995-1 HTTP/1.1" 200 375
+2021-03-15T14:34:01 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:34:01 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:34:04 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:34:05 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:34:35 UNICO TEST: /home/hernangonzales/projects/test/unico/unico/urls.py changed, reloading.
+2021-03-15T14:34:35 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T14:34:46 UNICO TEST: Not Found: /marketssdfsdfsd
+2021-03-15T14:34:46 UNICO TEST: "GET /marketssdfsdfsd HTTP/1.1" 404 24
+2021-03-15T14:57:55 UNICO TEST: Not Found: /
+2021-03-15T15:01:19 UNICO TEST: Not Found: /
+2021-03-15T15:08:11 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:09:33 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:19:05 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:19:07 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:19:15 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:20:16 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:22:14 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:47:07 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:49:35 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:49:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:50:22 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:50:35 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:50:46 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:52:33 UNICO TEST: Not Found: /not_exists/
+2021-03-15T15:57:52 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:23:31 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:25:49 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:25:59 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:26:15 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:28:07 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:28:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:30:09 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:30:55 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:31:01 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:31:05 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:31:50 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:31:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:32:05 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:32:11 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:32:18 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:35:37 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:35:49 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:36:01 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:42:58 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:43:41 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:44:22 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:47:29 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:47:36 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:51:53 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:52:01 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:52:20 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:54:07 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:54:33 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:55:54 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:56:11 UNICO TEST: Not Found: /not_exists/
+2021-03-15T16:57:18 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:00:20 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:00:57 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:00:57 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:01:18 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:01:29 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:02:51 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:02:51 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:04:20 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:04:21 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:04:37 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:04:37 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:04:52 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:04:52 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:05:03 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:05:03 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:08:11 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:08:11 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:08:11 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:08:11 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:08:30 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:08:30 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:08:30 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:08:30 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:09:25 UNICO TEST: Watching for file changes with StatReloader
+2021-03-15T17:09:33 UNICO TEST: Not Found: /markets/A
+2021-03-15T17:09:33 UNICO TEST: "PUT /markets/A HTTP/1.1" 404 23
+2021-03-15T17:09:49 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:09:49 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:09:49 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:09:49 UNICO TEST: Method Not Allowed: /markets/
+2021-03-15T17:10:24 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:10:24 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:10:24 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:10:24 UNICO TEST: Unsupported Media Type: /markets/A
+2021-03-15T17:10:47 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:10:47 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:10:47 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:10:48 UNICO TEST: Unsupported Media Type: /markets/A
+2021-03-15T17:13:22 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:13:23 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:13:23 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:13:33 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:13:34 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:13:34 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:13:34 UNICO TEST: Unsupported Media Type: /markets/A
+2021-03-15T17:13:39 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:13:39 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:13:39 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:14:38 UNICO TEST: Not Found: /not_exists/
+2021-03-15T17:14:38 UNICO TEST: Bad Request: /markets/
+2021-03-15T17:14:38 UNICO TEST: Not Found: /markets/B
+2021-03-15T17:14:38 UNICO TEST: Not Found: /markets/B

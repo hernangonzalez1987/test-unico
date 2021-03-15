@@ -20,6 +20,17 @@
             "request": "launch",
             "program": "${workspaceFolder}/unico/load.py",
             "django": false
-        }
+        },
+        {
+            "name": "Python: Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/unico/manage.py",
+            "args": [
+                "test"
+            ],
+            "django": true,
+            "cwd": "${workspaceFolder}/unico"
+        },
     ]
 }
