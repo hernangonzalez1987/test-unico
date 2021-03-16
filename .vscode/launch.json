@@ -18,7 +18,7 @@
             "name": "Python: Load",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/unico/load.py",
+            "program": "${workspaceFolder}/unico/initial_load/load.py",
             "django": false
         },
         {
