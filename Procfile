@@ -1,1 +1,1 @@
-web: ./manage.py runserver $PORT
+web: ./manage.py migrate && ./manage.py runserver $PORT
