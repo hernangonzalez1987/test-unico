@@ -7,5 +7,4 @@ def response_error_handler(request, exception=None):
     if response is not None:
         return JsonResponse({'message':response.status_text}, status=response.status_code)
     
-       
-    return JsonResponse({'message':'System error'}, status=500)
+    return response
