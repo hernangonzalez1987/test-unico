@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -60,21 +61,29 @@ TEMPLATES = [
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': os.getenv('DBNAME',default = "unico"),
+DATABASES = {}
 
-        'USER': os.getenv('DBUSER',default = "unico"),
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
-        'PASSWORD': os.getenv('DBPASS',default = "unico"),
+if DATABASES['default'] == {}:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'HOST': os.getenv('DBHOST',default = "localhost"),
+            'NAME': os.getenv('DBNAME',default = "unico"),
 
-        'PORT': os.getenv('DBPORT',default = "5432"),
+            'USER': os.getenv('DBUSER',default = "unico"),
+
+            'PASSWORD': os.getenv('DBPASS',default = "unico"),
+
+            'HOST': os.getenv('DBHOST',default = "localhost"),
+
+            'PORT': os.getenv('DBPORT',default = "5432"),
+        }
     }
-}
+
+
 
 
 # Password validation

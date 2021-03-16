@@ -8,7 +8,7 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/unico/manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver"
             ],
@@ -18,19 +18,18 @@
             "name": "Python: Load",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/unico/initial_load/load.py",
+            "program": "${workspaceFolder}/initial_load/load.py",
             "django": false
         },
         {
             "name": "Python: Test",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/unico/manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "test"
             ],
             "django": true,
-            "cwd": "${workspaceFolder}/unico"
         },
     ]
 }

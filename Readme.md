@@ -59,7 +59,7 @@ File "app.log" will be created in the current folder contained the copied logs f
 
 In order to run test it is need to to have Python and Pip installed.
 
-To run the tests execute the following commands inside folder "unico" :
+To run the tests execute the following commands on root folder :
 
  - pip install -r requirements.txt
  - sh test.sh

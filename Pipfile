@@ -9,6 +9,8 @@ djangorestframework = "*"
 django = "*"
 coverage = "*"
 drf-spectacular = "*"
+gunicorn = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
