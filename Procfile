@@ -1,1 +1,1 @@
-web: gunicorn unico.wsgi
+web: ./manage.py runserver $PORT

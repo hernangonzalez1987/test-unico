@@ -35,7 +35,7 @@ To run sucessfully the file DEINFO_AB_FEIRASLIVRES_2014.csv should be present in
 
 To run the API the following command should be executed (*):
 
- - docker run -it --network=host -p 8000:8000 --name unico-api api runserver
+ - docker run -it --rm --network=host --name unico-api api runserver
 
 The API will be exposed in localhost:8000 once it is running. 
 
