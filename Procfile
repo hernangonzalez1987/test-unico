@@ -1,1 +1,1 @@
-web: ./manage.py migrate && ./manage.py runserver $PORT
+web: gunicorn unico.wsgi -b :$PORT

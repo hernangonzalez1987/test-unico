@@ -1,5 +1,5 @@
 env
 __pycache__/
 .vscode/
-unico/.coverage
-unico/app.log
+.coverage
+app.log
