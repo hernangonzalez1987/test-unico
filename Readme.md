@@ -35,12 +35,12 @@ The API needs a PostgreSQL database to run. A dockerized database can be created
 
 Before executing the Application for the first time, it is needed to create the database schema. In order to do that the following command should be executed (*):
 
-  - Dockerized:
-    --  docker run -it --network=host hernangonzalez1987/test-unico migrate
+  - #### With Docker:
+    - docker run -it --network=host hernangonzalez1987/test-unico migrate
 
-  - Script (from root folder):
-    --  pipenv shell
-    --  ./manage.py migrate
+  - #### With Script (from root folder):
+    -  pipenv shell
+    -  ./manage.py migrate
 
 
 Optionally, to load database with initial data the following command can be executed (*):
@@ -54,11 +54,11 @@ To run sucessfully the file DEINFO_AB_FEIRASLIVRES_2014.csv should be present in
 
 To run the API the following command should be executed (*):
 
-  - Dockerized:
-    --  docker run -it --rm --network=host -v $PWD/logs:/logs --name unico-api hernangonzalez1987/test-unico runserver
+  - #### With Docker:
+    -  docker run -it --rm --network=host -v $PWD/logs:/logs --name unico-api hernangonzalez1987/test-unico runserver
 
-  - Script (from root folder, still in venv):
-    --  ./manage.py runserver
+  - #### With Script (from root folder, still in venv):
+    -  ./manage.py runserver
 
  The API will be exposed in localhost:8000 once it is running. 
 
