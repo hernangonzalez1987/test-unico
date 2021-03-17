@@ -7,6 +7,7 @@ REST API for Markets
 - Python
 - Django
 - PostgreSQL
+- Docker
 - Heroku Cloud
 
 ## Live Demo & API documentation
