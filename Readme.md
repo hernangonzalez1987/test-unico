@@ -7,11 +7,18 @@ REST API for Markets
  - Python
  - Django 
  - PostgreSQL
- - Heroku
+ - Heroku Cloud
+
+## Live Demo & API documentation
+
+A live demo of the API and the documentation can be found in the following link:
+
+https://test-unico.herokuapp.com/api/schema/swagger-ui/
+
 
 ## Installation
 
-The APIs can be run using docker.
+To run the API locally docker can be used.
 
 To install docker follow the instructions from https://docs.docker.com/engine/install/.
 
@@ -19,12 +26,13 @@ The API needs a PostgreSQL database to run. To run locally, a dockerized databas
  - docker pull postgres:9.6.21-alpine
  - docker run -e POSTGRES_DB=unico -e POSTGRES_USER=unico -e POSTGRES_PASSWORD=unico -p 5432:5432 -d postgres
 
-To create the database schema the following command should be executed (*):
+
+Before executing the Application for the first time, it is needed to create the database schema. In order to do that the following command should be executed (*):
 
  - docker run -it --network=host api migrate
 
 
-Optionally to load database with initial data the following command can be executed (*):
+Optionally, to load database with initial data the following command can be executed (*):
 
  - docker run -it -v $PWD:/data --network=host initial_load 
 
@@ -40,11 +48,10 @@ To run the API the following command should be executed (*):
 The API will be exposed in localhost:8000 once it is running. 
 
 
-## API Documentation
+## Postman
 
-Documentation of the API can be found in:
- 
- - {host}/api/schema/swagger-ui/
+A Postman collection is included in this project in the folder "postman" with example requests.
+
 
 ## Logs
 
@@ -61,10 +68,10 @@ In order to run test it is need to to have Python and Pip installed.
 
 To run the tests execute the following commands on root folder :
 
- - pip install -r requirements.txt
+ - pipenv shell
  - sh test.sh
 
-It should print the result of all unit tests and a report with coverage.
+It will print the result of all unit tests and a report with coverage.
 
 
 
@@ -81,20 +88,3 @@ It should print the result of all unit tests and a report with coverage.
     -e DBPASS={dbPass} 
 
   Example : - docker run -e DBHOST={host} -e DBPORT={port} -e DBNAME={dbName} -e DBUSER={dbUser} -e DBPASS={dbPass} -it --network=host initial_load 
-
-
-
-Postman
-
-
-Live Demo
-
-
-Tecnologias utilizadas
-
-Python
-Djando
-Postgres
-Docker
-Swagger?
-Heroku

@@ -1,0 +1,677 @@
+{
+	"info": {
+		"_postman_id": "fc726e51-a3f3-4113-b304-59e35b14a5c8",
+		"name": "TestUnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Markets",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"region_5\" : \"Leste\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}?district=BRAS",
+					"host": [
+						"{{host}}"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "BRAS"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List Markets",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"region_5\" : \"Leste\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}?district=BRAS",
+							"host": [
+								"{{host}}"
+							],
+							"query": [
+								{
+									"key": "district",
+									"value": "BRAS"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:46:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2047"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 3,\n        \"longitude\": -46610332,\n        \"latitude\": -23536131,\n        \"setcens\": 355030810000027,\n        \"areap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"4003-7\",\n        \"address_street\": \"RUA SAMPSON C MENDES JUNIOR\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"TV RUA BRESSER\"\n    },\n    {\n        \"id\": 216,\n        \"longitude\": -46615785,\n        \"latitude\": -23538897,\n        \"setcens\": 355030810000007,\n        \"areap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"1002-2\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n    },\n    {\n        \"id\": 222,\n        \"longitude\": -46620688,\n        \"latitude\": -23536194,\n        \"setcens\": 355030810000047,\n        \"areap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"JULIO RIBEIRO\",\n        \"registration_code\": \"6004-6\",\n        \"address_street\": \"RUA HENRIQUE DIAS\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAZ\",\n        \"reference\": \"MONS ANDRADE E RODRIGUE SANTOS\"\n    },\n    {\n        \"id\": 431,\n        \"longitude\": -46623912,\n        \"latitude\": -23551096,\n        \"setcens\": 355030810000033,\n        \"areap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"ALCANTARA MACHADO\",\n        \"registration_code\": \"6002-0\",\n        \"address_street\": \"RUA DOM BOSCO\",\n        \"address_number\": \"75.000000\",\n        \"address_city\": \"CAMBUCI\",\n        \"reference\": \"BAIXOS VD ALCANTARA MACHADO\"\n    },\n    {\n        \"id\": 633,\n        \"longitude\": -46620132,\n        \"latitude\": -23548105,\n        \"setcens\": 355030810000012,\n        \"areap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"BRAS MODERNA\",\n        \"registration_code\": \"7153-6\",\n        \"address_street\": \"RUA TORQUATO NETO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUAS PIRATININGA/CAETANO PINTO\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Create Market",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"",
+							"    var jsonData = pm.response.json();",
+							"       ",
+							"    pm.environment.set(\"id\",jsonData.id);",
+							"    pm.environment.set(\"registration_code\",jsonData.registration_code);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9999-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Market",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9995-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}",
+							"host": [
+								"{{host}}"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:16:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "402"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"longitude\": -46615785,\n    \"latitude\": -23538897,\n    \"setcens\": 355030810000007,\n    \"areap\": 3550308005005,\n    \"cod_dist\": 10,\n    \"district\": \"BRAS\",\n    \"cod_sub_prefecture\": \"25\",\n    \"sub_prefecture\": \"MOOCA\",\n    \"region_5\": \"Leste\",\n    \"region_8\": \"Leste 1\",\n    \"name\": \"CONCORDIA\",\n    \"registration_code\": \"9995-1\",\n    \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n    \"address_number\": \"S/N\",\n    \"address_city\": \"BRAS\",\n    \"reference\": \"RUA MARIA MARCOLINA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Duplicated Market",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9999-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Duplicated Market",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Leste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9999-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}",
+							"host": [
+								"{{host}}"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:35:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"registration_code\": [\n        \"market with this registration code already exists.\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Market",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 99,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Oeste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9999-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}{{registration_code}}",
+					"host": [
+						"{{host}}{{registration_code}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Market",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"longitude\": -46615785.0,\n        \"latitude\": -23538897.0,\n        \"setcens\": 355030810000007.0,\n        \"areap\": 3550308005005.0,\n        \"cod_dist\": 99,\n        \"district\": \"BRAS\",\n        \"cod_sub_prefecture\": \"25\",\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_5\": \"Oeste\",\n        \"region_8\": \"Leste 1\",\n        \"name\": \"CONCORDIA\",\n        \"registration_code\": \"9999-1\",\n        \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n        \"address_number\": \"S/N\",\n        \"address_city\": \"BRAS\",\n        \"reference\": \"RUA MARIA MARCOLINA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}{{registration_code}}",
+							"host": [
+								"{{host}}{{registration_code}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:36:32 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "375"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 881,\n    \"longitude\": -46615785,\n    \"latitude\": -23538897,\n    \"setcens\": 355030810000007,\n    \"areap\": 3550308005005,\n    \"cod_dist\": 99,\n    \"district\": \"BRAS\",\n    \"cod_sub_prefecture\": \"25\",\n    \"sub_prefecture\": \"MOOCA\",\n    \"region_5\": \"Oeste\",\n    \"region_8\": \"Leste 1\",\n    \"name\": \"CONCORDIA\",\n    \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n    \"address_number\": \"S/N\",\n    \"address_city\": \"BRAS\",\n    \"reference\": \"RUA MARIA MARCOLINA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Partially Market",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"reference\": \"NEW REFERENCE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}{{registration_code}}",
+					"host": [
+						"{{host}}{{registration_code}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Partially Market",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"reference\": \"NEW REFERENCE\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:registration_code",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":registration_code"
+							],
+							"variable": [
+								{
+									"key": "registration_code",
+									"value": "{{registration_code}}"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:46:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "369"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 881,\n    \"longitude\": -46615785,\n    \"latitude\": -23538897,\n    \"setcens\": 355030810000007,\n    \"areap\": 3550308005005,\n    \"cod_dist\": 99,\n    \"district\": \"BRAS\",\n    \"cod_sub_prefecture\": \"25\",\n    \"sub_prefecture\": \"MOOCA\",\n    \"region_5\": \"Oeste\",\n    \"region_8\": \"Leste 1\",\n    \"name\": \"CONCORDIA\",\n    \"address_street\": \"RUA CONSELHEIRO BELISARIO\",\n    \"address_number\": \"S/N\",\n    \"address_city\": \"BRAS\",\n    \"reference\": \"NEW REFERENCE\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Market",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 880,\n    \"longitude\": -46450426.0,\n    \"latitude\": -23602582.0,\n    \"setcens\": 355030833000022.0,\n    \"areap\": 9999.0,\n    \"cod_dist\": 32,\n    \"district\": \"IGUATEMI\",\n    \"cod_sub_prefecture\": \"30\",\n    \"sub_prefecture\": \"SAO MATEUS\",\n    \"region_5\": \"Leste\",\n    \"region_8\": \"Leste 2\",\n    \"name\": \"JD.BOA ESPERANCA\",\n    \"address_street\": \"RUA IGUPIARA\",\n    \"address_number\": \"S/N\",\n    \"address_city\": \"JD BOA ESPERANCA\",\n    \"reference\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}{{registration_code}}",
+					"host": [
+						"{{host}}{{registration_code}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Market",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 880,\n    \"longitude\": -46450426.0,\n    \"latitude\": -23602582.0,\n    \"setcens\": 355030833000022.0,\n    \"areap\": 9999.0,\n    \"cod_dist\": 32,\n    \"district\": \"IGUATEMI\",\n    \"cod_sub_prefecture\": \"30\",\n    \"sub_prefecture\": \"SAO MATEUS\",\n    \"region_5\": \"Leste\",\n    \"region_8\": \"Leste 2\",\n    \"name\": \"JD.BOA ESPERANCA\",\n    \"address_street\": \"RUA IGUPIARA\",\n    \"address_number\": \"S/N\",\n    \"address_city\": \"JD BOA ESPERANCA\",\n    \"reference\": null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:registration_code",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":registration_code"
+							],
+							"variable": [
+								{
+									"key": "registration_code",
+									"value": "{{registration_code}}"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/20.0.4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 17 Mar 2021 11:46:30 GMT"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
