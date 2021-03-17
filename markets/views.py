@@ -48,7 +48,24 @@ class ListCreateMarketsView(MultipleFieldsSearch, ListCreateAPIView):
 
 
 class RetrieveUpdateDestroyMarketView(RetrieveUpdateDestroyAPIView):
-    """ A really cool function"""
+
     queryset = Market.objects.all()
     lookup_field = 'registration_code'
     serializer_class = MarketUpdatedSerializer
+
+    @extend_schema(description='Gets a Market by Registration Code')
+    def get(self, request, *args, **kwargs):
+        return self.retrieve(request, *args, **kwargs)
+
+    @extend_schema(description='Deletes a Market by Registration Code')
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+
+    @extend_schema(description='Partially updates a Market by Registration Code')
+    def patch(self, request, *args, **kwargs):
+        return self.partial_update(request, *args, **kwargs)
+
+    @extend_schema(description='Updates a Market by Registration Code')
+    def put(self, request, *args, **kwargs):
+        return self.update(request, *args, **kwargs)
+

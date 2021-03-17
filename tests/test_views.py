@@ -57,7 +57,7 @@ class ListViewTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(json.loads(response.content)),1)
 
-class MarketCreateTests(TestCase):
+class CreateViewTests(TestCase):
 
     def test_create_market(self):
         response = self.client.post('/markets/',{'id' : '1','registration_code' : 'A'})
@@ -69,7 +69,7 @@ class MarketCreateTests(TestCase):
         self.assertEqual(response.status_code, 400)
         self.assertEqual(json.loads(response.content)['registration_code'], ['market with this registration code already exists.'])
 
-class MarketUpdate(TestCase):
+class UpdateViewTests(TestCase):
 
     def test_update_market(self):
         Market.objects.create(id=1, registration_code='A')
@@ -80,7 +80,19 @@ class MarketUpdate(TestCase):
         response = self.client.put('/markets/B',{'id' : '1','district' : "B"})
         self.assertEqual(response.status_code, 404)
 
-class MarketDelete(TestCase):
+
+class PatchViewTests(TestCase):
+
+    def test_patch_market(self):
+        Market.objects.create(id=1, registration_code='A')
+        response = self.client.patch('/markets/A',{'district' : "A"},content_type='application/json')
+        self.assertEqual(response.status_code, 200)
+
+    def test_patch_non_existing_market(self):
+        response = self.client.patch('/markets/B',{'id' : '1','district' : "B"})
+        self.assertEqual(response.status_code, 404)
+
+class DeleteViewTests(TestCase):
 
     def test_delete_market(self):
         Market.objects.create(id=1, registration_code='A')
@@ -89,6 +101,17 @@ class MarketDelete(TestCase):
 
     def test_delete_non_existing_market(self):
         response = self.client.delete('/markets/B')
+        self.assertEqual(response.status_code, 404)
+
+class GetViewTests(TestCase):
+
+    def test_get_market(self):
+        Market.objects.create(id=1, registration_code='A')
+        response = self.client.get('/markets/A')
+        self.assertEqual(response.status_code, 200)
+
+    def test_get_non_existing_market(self):
+        response = self.client.get('/markets/B')
         self.assertEqual(response.status_code, 404)
 
 

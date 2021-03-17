@@ -138,7 +138,7 @@ LOGGING = {
             'level': 'INFO',
             'class': 'logging.FileHandler',
             'formatter': 'general',
-            'filename': BASE_DIR / 'app.log',
+            'filename': os.path.join(BASE_DIR,'logs','app.log'),
         },
     },
     'formatters': {                                                                                       
