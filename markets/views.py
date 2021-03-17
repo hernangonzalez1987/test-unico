@@ -3,6 +3,7 @@ from rest_framework.generics import RetrieveUpdateDestroyAPIView
 from .serializers import MarketSerializer, MarketUpdatedSerializer
 from .models import Market
 from drf_spectacular.utils import extend_schema, OpenApiParameter
+from django.http import JsonResponse
 
 
 class MultipleFieldsSearch:
@@ -44,6 +45,10 @@ class ListCreateMarketsView(MultipleFieldsSearch, ListCreateAPIView):
         ],
     )
     def get(self, request, *args, **kwargs):
+
+        if not bool(set(self.request.query_params).intersection(self.lookup_fields)):
+            return JsonResponse({'message': "Should include at least one query param: [district,region_5,name,address_city]"}, status=400)
+
         return self.list(request, *args, **kwargs)
 
 
@@ -68,4 +73,3 @@ class RetrieveUpdateDestroyMarketView(RetrieveUpdateDestroyAPIView):
     @extend_schema(description='Updates a Market by Registration Code')
     def put(self, request, *args, **kwargs):
         return self.update(request, *args, **kwargs)
-

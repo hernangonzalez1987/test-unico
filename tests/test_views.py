@@ -13,17 +13,13 @@ class ErrorHandlerTests(TestCase):
 class ListViewTests(TestCase):
 
     def test_view_empty_market_lists(self):
-        response = self.client.get('/markets/')
+        response = self.client.get('/markets/?district=A')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(json.loads(response.content)),0)
 
     def test_view_market_lists_without_filters(self):
-        Market.objects.create(id=1, registration_code='A',district="A",region_5="Leste",name="A",address_city="CITY_2")
-        Market.objects.create(id=2, registration_code='B',district="A",region_5="Oeste",name="B",address_city="CITY_1")
-        Market.objects.create(id=3, registration_code='C',district="B",region_5="Leste",name="C",address_city="CITY_1")
         response = self.client.get('/markets/')
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(len(json.loads(response.content)),3)
+        self.assertEqual(response.status_code, 400)
 
     def test_view_market_lists_district_filter(self):
         Market.objects.create(id=1, registration_code='A',district="A",region_5="Leste",name="A",address_city="CITY_2")
