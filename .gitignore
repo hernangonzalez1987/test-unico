@@ -2,5 +2,3 @@ env
 __pycache__/
 .vscode/
 .coverage
-app.log
-logs

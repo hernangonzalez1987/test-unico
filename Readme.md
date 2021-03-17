@@ -2,7 +2,7 @@
 
 REST API for Markets
 
-## Technologies used
+## Made using
 
  - Python
  - Django 
